@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+  freeze: auto
+
+website:
+  title: "Deneme"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Ana Sayfa
+format:
+  html:
+    theme: cosmo
+    #css: styles.css
+    toc: true
